@@ -4,7 +4,7 @@ class First Program {
   System.Out.Println("studentName:" + "Atitep Karapak");
   System.Out.Println("Topic:" + "gitHub");
   System.Out.Println("Date:" + "11/20/2024");
-  JOptionPane.showMessageDialog(null,"studentId" + "2413110988" + \n"studentName:" + "Atitep Karapak" + \n"Topic:" + "gitHub" + \n"Date:" + "11/20/2024");
+  JOptionPane.showMessageDialog(null,"studentId" + "2413110988" + "\nstudentName:" + "\nAtitep Karapak" + "\nTopic:" + "gitHub" + "\nDate:" + "11/20/2024");
  }
 }                         
                                 
