@@ -1,4 +1,4 @@
 studentId:2413110988
 studentName:Atitep Karapak
-Topic:Display, Variable and Input
-Date:11/27/2024
+Topic:Display, LabSheet03
+Date:12/11/2024
