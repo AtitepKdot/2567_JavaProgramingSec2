@@ -60,11 +60,11 @@ public class Lab404 {
 		else if (isSt == false && isSub == true) {
 			System.out.println("is not\t1st year student in IT" + "\nEnroll in courses for Year 1");
 		}
-		if (isSt == true && isSub == false) {
+		else if (isSt == true && isSub == false) {
 			System.out.println("1st year student in IT" + "\nnot enroll in courses for Year 1");
 
 		}
-		else if (isSt == false && isSub == true) {
+		else{
 			System.out.println("is not\t1st year student in IT" + "\nEnroll in courses for Year 1");
 
 		}
