@@ -1,4 +1,4 @@
 studentId:2413110988
 studentName:Atitep Karapak
-Topic:Class and Object
-Date:01/15/2024
+Topic:Encapsulation Concept
+Date:01/22/2024
