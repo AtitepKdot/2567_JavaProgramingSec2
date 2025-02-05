@@ -1,4 +1,6 @@
+import java.text.DecimalFormat;
 import java.util.*;
+
 public class EmployeeDemo {
 
 	public static void main(String[] args) {
@@ -14,10 +16,10 @@ public class EmployeeDemo {
 		double empSales = input.nextDouble();
 		//Space
 		System.out.println("");
-		
+		DecimalFormat frm = new DecimalFormat("#,###.00");
 		Sales emp1 = new Sales(empId,empName,empSalary,empSales);
 		System.out.println(emp1.toString());
-		System.out.println("Total salary " + (empSalary + emp1.getCommision()) + "bath.");
+		System.out.println("Total salary " + frm.format(empSalary + emp1.getCommision()) + "bath.");
 		
 		
 input.close();

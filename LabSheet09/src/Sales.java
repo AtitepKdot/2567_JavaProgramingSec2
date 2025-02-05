@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 
 public class Sales extends Employee{
 private double sales;
@@ -6,6 +7,7 @@ Sales(String id, String name, double salary , double sales) {
 	this.sales = sales;
 	
 }
+DecimalFormat frm = new DecimalFormat("#,###.00");
 Sales(String id, String name, double sales) {
 	super(id,name);
 	this.sales = sales;
@@ -23,7 +25,7 @@ public double getCommision() {
 	}
 }
 public String toString() {
-	return super.getName() + "(" + super.getId() + ")" + "get Commission" + this.getCommision() + "baht.";
+	return super.getName() + "(" + super.getId() + ")" + "get Commission " + frm.format(getCommision()) + "baht.";
 }
 
 
